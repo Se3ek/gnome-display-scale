@@ -31,7 +31,7 @@ def scale(factor):
     updated_logical_monitors=[]
     for x, y, scale, transform, primary, linked_monitors_info, props in logical_monitors:
         if primary == 1:
-            scale = factor # toggle scaling between 1.0 and 2.0 for the primary monitor
+            scale = factor
         physical_monitors_config = []
         for linked_monitor_connector, linked_monitor_vendor, linked_monitor_product, linked_monitor_serial in linked_monitors_info:
             for monitor_info, monitor_modes, monitor_properties in physical_monitors:

@@ -1,4 +1,4 @@
 #!/usr/bin/sh
 
 script_home=$( dirname "$(realpath "$0")" )
-python "$script_home"/scale125.py
+python "$script_home"/scalealt.py
